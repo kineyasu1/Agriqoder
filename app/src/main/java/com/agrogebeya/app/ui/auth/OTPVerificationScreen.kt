@@ -1,4 +1,4 @@
-package com.agrogebeya.app.ui.auth
+﻿package com.agrogebeya.app.ui.auth
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.KeyboardOptions
@@ -96,8 +96,6 @@ fun OTPVerificationScreen(
         Button(
             onClick = { 
                 isLoading = true
-                // Simulate verification process
-                kotlinx.coroutines.android.awaitFrame()
                 // In real app, verify the OTP here
                 onVerificationSuccess()
             },

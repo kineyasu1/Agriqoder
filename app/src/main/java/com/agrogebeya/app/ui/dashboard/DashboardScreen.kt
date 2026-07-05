@@ -1,4 +1,4 @@
-package com.agrogebeya.app.ui.dashboard
+﻿package com.agrogebeya.app.ui.dashboard
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -82,7 +82,7 @@ fun LoadingIndicator() {
 }
 
 @Composable
-fun MainContentSection(
+fun ColumnScope.MainContentSection(
     onBuyProductsClicked: () -> Unit,
     onSellProductsClicked: () -> Unit
 ) {
